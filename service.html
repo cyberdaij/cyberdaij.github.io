@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Dr. Jun Dai | Service</title>
+  <style>
+:root{
+  --bg:#ffffff;
+  --text:#111827;
+  --muted:#4b5563;
+  --border:#e5e7eb;
+  --link:#1E4ED8;
+  --card:#ffffff;
+  --shadow: 0 10px 28px rgba(0,0,0,.06);
+  --radius:16px;
+  --maxw: 1000px;
+  --activeBg:#E6F0FF;
+  --hoverBg:#F3F4F6;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--text)}
+body{
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+  line-height:1.62;
+  font-size:16px;
+}
+a{color:var(--link);text-decoration:none}
+a:hover{text-decoration:underline}
+.skip{position:absolute;left:-999px;top:auto;width:1px;height:1px;overflow:hidden;}
+.skip:focus{
+  position:static;width:auto;height:auto;margin:12px;display:inline-block;
+  padding:8px 10px;border-radius:10px;border:1px solid var(--border);background:var(--card);
+}
+.container{max-width:var(--maxw);margin:0 auto;padding:28px 18px 56px}
+.header{
+  display:flex;gap:88px;align-items:center;
+  padding:18px 18px;
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  background:var(--card);
+  box-shadow:var(--shadow);
+}
+.portrait{
+  width:140px;height:140px;flex:0 0 140px;
+  margin-left:25px;
+  border-radius:14px;object-fit:cover;
+  border:1px solid var(--border);
+}
+.identity h1{
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size:20px;
+  line-height:1.15;
+  margin:0 0 6px 0;
+  letter-spacing:.2px;
+}
+.identity .meta{color:var(--muted);font-size:14.5px}
+.identity .meta div{margin:2px 0}
+.meta .label{color:var(--muted)}
+.nav{
+  margin-top:14px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  padding:10px 12px;
+  border:1px solid var(--border);
+  border-radius:999px;
+  background:var(--card);
+}
+.nav a{
+  flex:1 1 150px;
+  text-align:center;
+  display:block;
+  padding:9px 10px;
+  border-radius:999px;
+  font-weight:600;
+  font-size:14px;
+  color:var(--muted);
+  white-space:nowrap;
+}
+.nav a.active{background:var(--activeBg);color:#0b1220;}
+.nav a:hover{background:var(--hoverBg);}
+.nav a:focus{outline:2px solid #93c5fd;outline-offset:2px}
+main{
+  margin-top:18px;
+  padding:22px 22px;
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  background:var(--card);
+  box-shadow:var(--shadow);
+}
+h2,h3{
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  margin:0 0 10px 0;
+}
+h2{font-size:20px;margin-top:22px}
+h2:first-child{margin-top:0}
+h3{font-size:17px;margin-top:18px}
+p{margin:10px 0}
+ul{padding-left:20px;margin:10px 0}
+li{margin:6px 0}
+hr{border:none;border-top:1px solid var(--border);margin:18px 0}
+.small{font-size:13.5px;color:var(--muted)}
+.card{border:1px solid var(--border);border-radius:14px;padding:14px;background:#fff;}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:860px){
+  .grid{grid-template-columns:1fr}
+  .header{flex-direction:column;align-items:flex-start}
+  .portrait{margin-left:0}
+}
+.badge{
+  display:inline-block;
+  padding:2px 8px;
+  border-radius:999px;
+  border:1px solid var(--border);
+  background:#f9fafb;
+  font-size:12.5px;
+  color:var(--muted);
+  vertical-align:baseline;
+}
+details{border:1px solid var(--border);border-radius:14px;padding:10px 12px;background:#fff;margin-top:10px}
+details > summary{cursor:pointer;font-weight:700}
+details > summary::-webkit-details-marker{display:none}
+details > summary:after{content:"▾";float:right;color:var(--muted)}
+details[open] > summary:after{content:"▴"}
+.publist li{margin:10px 0}
+</style>
+</head>
+<body>
+<a class="skip" href="#content">Skip to content</a>
+<div class="container">
+
+<header class="header">
+  <img alt="Dr. Jun Dai" class="portrait" src="dj.jpg"/>
+  <div class="identity">
+    <h1>Dr. Jun Dai</h1>
+    <div class="meta">
+      <div><span class="label">Associate Professor, </span><a href="https://www.wpi.edu/academics/departments/computer-science">Department of Computer Science</a></div>
+      <div><a href="https://www.wpi.edu/">Worcester Polytechnic Institute (WPI)</a></div>
+      <div><span class="label">Office:</span> Fuller 235, 100 Institute Road, Worcester, MA 01609</div>
+      <div><span class="label">Email:</span> jdai<img alt="@" height="10" src="atimg.png" width="10"/>wpi.edu <span class="label">Phone:</span> +1 (508) 831-6069</div>
+      <div><span class="label">ORCID:</span> <a href="https://orcid.org/0000-0002-6890-6429">0000-0002-6890-6429</a></div>
+      <div><span class="label">LinkedIn:</span> <a href="https://www.linkedin.com/pub/jun-dai/84/749/110">linkedin.com/pub/jun-dai/84/749/110</a></div>
+    </div>
+  </div>
+</header>
+
+<nav aria-label="Primary" class="nav">
+    <a href="index.html">Home</a>
+    <a href="group.html">Group</a>
+    <a href="research.html">Projects & Publications</a>
+    <a href="teaching.html">Teaching</a>
+    <a href="service.html" class="active">Service</a>
+</nav>
+<main id="content">
+<h2>Service</h2>
+<section class="card"><h3>Editorial Board</h3><ul>
+  <li>Associate Editor, IEEE Transactions on Dependable and Secure Computing (TDSC), April 2025-present</li>
+</ul></section>
+<section class="card" style="margin-top:12px"><h3>Chair/Session Chair</h3><ul>
+  <li>Security in Media Processing and Communications Interest Group (SMPCIG) of IEEE Multimedia Communications Technical Committee (MMTC), April 2015-present</li>
+  <li>ACM CCS 2026, Artifact Evaluation Co-Chair</li>
+  <li>ACM CCS 2023, Workshop Chair</li>
+  <li>SecureComm 2022, "Intrusion Detection" Session</li>
+  <li>MILCOM 2023, "Attack and Intrusion Detection" Session</li>
+  <li>SECRYPT 2018, Session 2A</li>
+  <li>SecureComm 2015, "Web and Network Security II" Session</li>
+  <li>MILCOM 2015, "Cross Domain Operations" Session</li>
+</ul></section>
+<section class="card" style="margin-top:12px"><h3>Conference Technical Program Committee</h3><ul>
+  <li>ACM Conference on Computer and Communications Security (CCS), 2025, 2026</li>
+  <li>IEEE International Conference on Distributed Computing Systems (ICDCS), 2024-2025</li>
+  <li>International Conference on Security and Cryptography (SECRYPT), 2015-2019, 2023, 2025</li>
+  <li>IEEE International Conference for Military Communications (MILCOM), 2015-2017, 2019, 2021-2025</li>
+  <li>EAI International Conference on Security and Privacy in Communication Networks (SecureComm), 2015-2020</li>
+  <li>IFIP World Conference on Information Security Education (WISE), 2018-2023</li>
+  <li>IFIP WG 11.3 Working Conference on Data and Applications Security and Privacy (DBSec), 2015, 2016</li>
+  <li>IEEE International Conference on Big Data Science and Engineering (BigDataSE), 2015, 2016, 2018</li>
+  <li>IEEE International Performance Computing and Communications Conference (IPCCC), 2015-2018, 2023</li>
+  <li>IEEE International Conference on Mobile Ad-Hoc and Smart Systems (MASS), 2018-2019</li>
+</ul></section>
+<section class="card" style="margin-top:12px"><h3>Journal/Conference Reviewer</h3><ul>
+  <li>IEEE Transactions on Dependable and Secure Computing (TDSC), 2014-2015, 2017-2019, 2021, 2023-2025</li>
+  <li>IEEE Transactions on Information Forensics and Security (TIFS), 2015-2016</li>
+  <li>IEEE Transactions on Vehicular Technology (TVT), 2015-2019</li>
+  <li>IEEE Transactions on Mobile Computing (TMC), 2015</li>
+  <li>IEEE Transactions on Multimedia (ToM), 2018, 2019</li>
+  <li>IEEE Transactions on Network Science and Engineering (TNSE), 2018</li>
+  <li>IEEE Internet of Things Journal (IoT), 2018, 2021, 2023</li>
+  <li>IEEE Wireless Communications Magazine (WCM), 2015, 2018</li>
+  <li>Springer Cybersecurity, 2018-2020</li>
+  <li>Journal of Computer Security (JCS), 2017</li>
+  <li>The Computer Journal (COMPJ), 2015</li>
+  <li>Concurrency and Computation: Practice and Experience, 2017</li>
+  <li>Security and Communication Networks (SCN), 2014, 2015</li>
+  <li>EES Pervasive and Mobile Computing (PMC), 2015</li>
+  <li>EAI Endorsed Transactions, 2014</li>
+</ul></section>
+</main>
+</div>
+</body>
+</html>

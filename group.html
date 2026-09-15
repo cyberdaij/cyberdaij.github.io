@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Dr. Jun Dai | Group</title>
+  <style>
+:root{
+  --bg:#ffffff;
+  --text:#111827;
+  --muted:#4b5563;
+  --border:#e5e7eb;
+  --link:#1E4ED8;
+  --card:#ffffff;
+  --shadow: 0 10px 28px rgba(0,0,0,.06);
+  --radius:16px;
+  --maxw: 1000px;
+  --activeBg:#E6F0FF;
+  --hoverBg:#F3F4F6;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--text)}
+body{
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+  line-height:1.62;
+  font-size:16px;
+}
+a{color:var(--link);text-decoration:none}
+a:hover{text-decoration:underline}
+.skip{position:absolute;left:-999px;top:auto;width:1px;height:1px;overflow:hidden;}
+.skip:focus{
+  position:static;width:auto;height:auto;margin:12px;display:inline-block;
+  padding:8px 10px;border-radius:10px;border:1px solid var(--border);background:var(--card);
+}
+.container{max-width:var(--maxw);margin:0 auto;padding:28px 18px 56px}
+.header{
+  display:flex;gap:88px;align-items:center;
+  padding:18px 18px;
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  background:var(--card);
+  box-shadow:var(--shadow);
+}
+.portrait{
+  width:140px;height:140px;flex:0 0 140px;
+  margin-left:25px;
+  border-radius:14px;object-fit:cover;
+  border:1px solid var(--border);
+}
+.identity h1{
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size:20px;
+  line-height:1.15;
+  margin:0 0 6px 0;
+  letter-spacing:.2px;
+}
+.identity .meta{color:var(--muted);font-size:14.5px}
+.identity .meta div{margin:2px 0}
+.meta .label{color:var(--muted)}
+.nav{
+  margin-top:14px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  padding:10px 12px;
+  border:1px solid var(--border);
+  border-radius:999px;
+  background:var(--card);
+}
+.nav a{
+  flex:1 1 150px;
+  text-align:center;
+  display:block;
+  padding:9px 10px;
+  border-radius:999px;
+  font-weight:600;
+  font-size:14px;
+  color:var(--muted);
+  white-space:nowrap;
+}
+.nav a.active{background:var(--activeBg);color:#0b1220;}
+.nav a:hover{background:var(--hoverBg);}
+.nav a:focus{outline:2px solid #93c5fd;outline-offset:2px}
+main{
+  margin-top:18px;
+  padding:22px 22px;
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  background:var(--card);
+  box-shadow:var(--shadow);
+}
+h2,h3{
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  margin:0 0 10px 0;
+}
+h2{font-size:20px;margin-top:22px}
+h2:first-child{margin-top:0}
+h3{font-size:17px;margin-top:18px}
+p{margin:10px 0}
+ul{padding-left:20px;margin:10px 0}
+li{margin:6px 0}
+hr{border:none;border-top:1px solid var(--border);margin:18px 0}
+.small{font-size:13.5px;color:var(--muted)}
+.card{border:1px solid var(--border);border-radius:14px;padding:14px;background:#fff;}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:860px){
+  .grid{grid-template-columns:1fr}
+  .header{flex-direction:column;align-items:flex-start}
+  .portrait{margin-left:0}
+}
+.badge{
+  display:inline-block;
+  padding:2px 8px;
+  border-radius:999px;
+  border:1px solid var(--border);
+  background:#f9fafb;
+  font-size:12.5px;
+  color:var(--muted);
+  vertical-align:baseline;
+}
+details{border:1px solid var(--border);border-radius:14px;padding:10px 12px;background:#fff;margin-top:10px}
+details > summary{cursor:pointer;font-weight:700}
+details > summary::-webkit-details-marker{display:none}
+details > summary:after{content:"▾";float:right;color:var(--muted)}
+details[open] > summary:after{content:"▴"}
+.publist li{margin:10px 0}
+</style>
+</head>
+<body>
+<a class="skip" href="#content">Skip to content</a>
+<div class="container">
+
+<header class="header">
+  <img alt="Dr. Jun Dai" class="portrait" src="dj.jpg"/>
+  <div class="identity">
+    <h1>Dr. Jun Dai</h1>
+    <div class="meta">
+      <div><span class="label">Associate Professor, </span><a href="https://www.wpi.edu/academics/departments/computer-science">Department of Computer Science</a></div>
+      <div><a href="https://www.wpi.edu/">Worcester Polytechnic Institute (WPI)</a></div>
+      <div><span class="label">Office:</span> Fuller 235, 100 Institute Road, Worcester, MA 01609</div>
+      <div><span class="label">Email:</span> jdai<img alt="@" height="10" src="atimg.png" width="10"/>wpi.edu <span class="label">Phone:</span> +1 (508) 831-6069</div>
+      <div><span class="label">ORCID:</span> <a href="https://orcid.org/0000-0002-6890-6429">0000-0002-6890-6429</a></div>
+      <div><span class="label">LinkedIn:</span> <a href="https://www.linkedin.com/pub/jun-dai/84/749/110">linkedin.com/pub/jun-dai/84/749/110</a></div>
+    </div>
+  </div>
+</header>
+
+<nav aria-label="Primary" class="nav">
+    <a href="index.html">Home</a>
+    <a href="group.html" class="active">Group</a>
+    <a href="research.html">Projects & Publications</a>
+    <a href="teaching.html">Teaching</a>
+    <a href="service.html">Service</a>
+</nav>
+<main id="content">
+<h2>Students</h2>
+
+<section class="card">
+  <h3>PhD Students</h3>
+  <ul>
+  <li>Zhihao Zhang (BS: Fudan University, Fall 2024-present)</li>
+  <li>Cooper Dean (BS: WPI, Fall 2024-present)</li>
+  <li>Chao Wang (BS: Jilin University, MS: WPI, Spring 2024-present)</li>
+  <li>Brian Almaguer (Cloud Application Developer at Blue Shield of California, Fall 2025-present)</li>
+</ul>
+</section>
+
+<section class="card" style="margin-top:12px">
+  <h3>MS Students (Advised or Co-advised)</h3>
+  <ul>
+  <li>Tran Ngoc Bao Huynh (MS: Arizona State University, Fall 2024-Spring 2026)</li>
+  <li>Brian Almaguer (Cloud Application Developer at Blue Shield of California, Fall 2024-Spring 2025)</li>
+  <li>Cole Ouellette (BS: WPI, Fall 2024-Spring 2025)</li>
+</ul>
+</section>
+</main>
+</div>
+</body>
+</html>

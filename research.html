@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Dr. Jun Dai | Projects & Publications</title>
+  <style>
+:root{
+  --bg:#ffffff;
+  --text:#111827;
+  --muted:#4b5563;
+  --border:#e5e7eb;
+  --link:#1E4ED8;
+  --card:#ffffff;
+  --shadow: 0 10px 28px rgba(0,0,0,.06);
+  --radius:16px;
+  --maxw: 1000px;
+  --activeBg:#E6F0FF;
+  --hoverBg:#F3F4F6;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--text)}
+body{
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+  line-height:1.62;
+  font-size:16px;
+}
+a{color:var(--link);text-decoration:none}
+a:hover{text-decoration:underline}
+.skip{position:absolute;left:-999px;top:auto;width:1px;height:1px;overflow:hidden;}
+.skip:focus{
+  position:static;width:auto;height:auto;margin:12px;display:inline-block;
+  padding:8px 10px;border-radius:10px;border:1px solid var(--border);background:var(--card);
+}
+.container{max-width:var(--maxw);margin:0 auto;padding:28px 18px 56px}
+.header{
+  display:flex;gap:88px;align-items:center;
+  padding:18px 18px;
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  background:var(--card);
+  box-shadow:var(--shadow);
+}
+.portrait{
+  width:140px;height:140px;flex:0 0 140px;
+  margin-left:25px;
+  border-radius:14px;object-fit:cover;
+  border:1px solid var(--border);
+}
+.identity h1{
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size:20px;
+  line-height:1.15;
+  margin:0 0 6px 0;
+  letter-spacing:.2px;
+}
+.identity .meta{color:var(--muted);font-size:14.5px}
+.identity .meta div{margin:2px 0}
+.meta .label{color:var(--muted)}
+.nav{
+  margin-top:14px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  padding:10px 12px;
+  border:1px solid var(--border);
+  border-radius:999px;
+  background:var(--card);
+}
+.nav a{
+  flex:1 1 150px;
+  text-align:center;
+  display:block;
+  padding:9px 10px;
+  border-radius:999px;
+  font-weight:600;
+  font-size:14px;
+  color:var(--muted);
+  white-space:nowrap;
+}
+.nav a.active{background:var(--activeBg);color:#0b1220;}
+.nav a:hover{background:var(--hoverBg);}
+.nav a:focus{outline:2px solid #93c5fd;outline-offset:2px}
+main{
+  margin-top:18px;
+  padding:22px 22px;
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  background:var(--card);
+  box-shadow:var(--shadow);
+}
+h2,h3{
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  margin:0 0 10px 0;
+}
+h2{font-size:20px;margin-top:22px}
+h2:first-child{margin-top:0}
+h3{font-size:17px;margin-top:18px}
+p{margin:10px 0}
+ul{padding-left:20px;margin:10px 0}
+li{margin:6px 0}
+hr{border:none;border-top:1px solid var(--border);margin:18px 0}
+.small{font-size:13.5px;color:var(--muted)}
+.card{border:1px solid var(--border);border-radius:14px;padding:14px;background:#fff;}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:860px){
+  .grid{grid-template-columns:1fr}
+  .header{flex-direction:column;align-items:flex-start}
+  .portrait{margin-left:0}
+}
+.badge{
+  display:inline-block;
+  padding:2px 8px;
+  border-radius:999px;
+  border:1px solid var(--border);
+  background:#f9fafb;
+  font-size:12.5px;
+  color:var(--muted);
+  vertical-align:baseline;
+}
+details{border:1px solid var(--border);border-radius:14px;padding:10px 12px;background:#fff;margin-top:10px}
+details > summary{cursor:pointer;font-weight:700}
+details > summary::-webkit-details-marker{display:none}
+details > summary:after{content:"▾";float:right;color:var(--muted)}
+details[open] > summary:after{content:"▴"}
+.publist li{margin:10px 0}
+</style>
+</head>
+<body>
+<a class="skip" href="#content">Skip to content</a>
+<div class="container">
+
+<header class="header">
+  <img alt="Dr. Jun Dai" class="portrait" src="dj.jpg"/>
+  <div class="identity">
+    <h1>Dr. Jun Dai</h1>
+    <div class="meta">
+      <div><span class="label">Associate Professor, </span><a href="https://www.wpi.edu/academics/departments/computer-science">Department of Computer Science</a></div>
+      <div><a href="https://www.wpi.edu/">Worcester Polytechnic Institute (WPI)</a></div>
+      <div><span class="label">Office:</span> Fuller 235, 100 Institute Road, Worcester, MA 01609</div>
+      <div><span class="label">Email:</span> jdai<img alt="@" height="10" src="atimg.png" width="10"/>wpi.edu <span class="label">Phone:</span> +1 (508) 831-6069</div>
+      <div><span class="label">ORCID:</span> <a href="https://orcid.org/0000-0002-6890-6429">0000-0002-6890-6429</a></div>
+      <div><span class="label">LinkedIn:</span> <a href="https://www.linkedin.com/pub/jun-dai/84/749/110">linkedin.com/pub/jun-dai/84/749/110</a></div>
+    </div>
+  </div>
+</header>
+
+<nav aria-label="Primary" class="nav">
+    <a href="index.html">Home</a>
+    <a href="group.html">Group</a>
+    <a href="research.html" class="active">Projects & Publications</a>
+    <a href="teaching.html">Teaching</a>
+    <a href="service.html">Service</a>
+</nav>
+<main id="content">
+<h2>Projects &amp; Publications</h2>
+
+
+
+<section class="card">
+  <h3>Research Focus Areas</h3>
+
+  <ul>
+    <li>
+      <strong>Artificial Intelligence * Cybersecurity * Networked and Distributed Systems</strong>
+      <ul>
+        <li>AI Security, LLM Security, Agent Security</li>
+        <li>Network, Distributed, and IoT Systems Security</li>
+        <li>Secure Coding, Vulnerability Analysis, Software Security</li>
+        <li>Advanced Threat Detection and Defense</li>
+        <li>Applied Cryptography and Privacy-Preserving Computing</li>
+        <li>Cybersecurity and Computer Science Education</li>
+      </ul>
+    </li>
+  </ul>
+
+</section>
+
+
+<section class="card" style="margin-top:12px">
+  <h3>Current and Past Projects</h3>
+  <ul>
+  <li><b>CARE-AI</b>: Advancing AI Research with NAIRR Workshop Series on Cybersecurity, Edge AI, and Autonomous Driving (<span style="color:#1E4ED8;">NSF-Funded</span>)</li>
+  <li><b>DRIFT</b>: DRiving Auto Industry workForce Transformation (<span style="color:#1E4ED8;">NCAEC-Funded</span>)</li>
+  <li><b>NCTC</b>: National Cybersecurity Teaching Coalition (<span style="color:#1E4ED8;">NCAEC-Funded</span>)</li>
+  <li><b>NCTA</b>: National Cybersecurity Teaching Academy (<span style="color:#1E4ED8;">NCAEC-Funded</span>)</li>
+  <li><b>SWEEPS</b>: Strengthening Workforce Education: Excellence in Programming Securely (<span style="color:#1E4ED8;">NCAEC-Funded</span>)</li>
+  <li><b>INFER</b>: INstructional Forensics Education Resource (<span style="color:#1E4ED8;">NSF-Funded</span>)</li>
+  <li><b>GenCyber 2022</b>: Inspiring The Next Generation of Cyber Stars (<span style="color:#1E4ED8;">NSF/NSA-Funded</span>)</li>
+  <li><b>GenCyber 2021A</b>: Inspiring The Next Generation of Cyber Stars (<span style="color:#1E4ED8;">NSF/NSA-Funded</span>)</li>
+  <li><b>GenCyber 2021</b>: Inspiring The Next Generation of Cyber Stars (<span style="color:#1E4ED8;">NSF/NSA-Funded</span>)</li>
+  <li><b>SecTutor</b>: Developing An Intelligent System for Self-Directed Learning in Secure Programming (<span style="color:#1E4ED8;">NSF-Funded</span>)</li>
+  <li><b>Secure Programming Concept Inventory</b>: An Assessment Tool of Secure Programming Misunderstanding (<span style="color:#1E4ED8;">NCAEC-Funded</span>)</li>
+  <li><b>Secure Programming Clinician</b>: A Clinical Education Method of Secure Programming Training (<span style="color:#1E4ED8;">UCD-Funded</span>)</li>
+  <li><b>Secure Coding Assistant</b>: IDE Development to Empower Programmers with Secure Coding Capabilities</li>
+  <li><b>ZePro</b>: A Probabilistic Approach to Reveal Zero-day Attack Paths</li>
+  <li><b>Patrol</b>: A Run-time System to Reveal Zero-day Attack Path</li>
+  <li><b>SKRM</b>: An Interconnected Cross-layer Situation Knowledge Reference Model for Enterprise Network Security</li>
+</ul>
+</section>
+
+<section class="card" style="margin-top:12px">
+  <h3>Honors and Awards</h3>
+  <ul>
+  <li>University Award (university highest honor) for Research, Scholarship and Creative Activity for Early-Career Faculty, CSUS, 2021-2022</li>
+  <li>Outstanding Faculty Award for Teaching, CSUS, 2021-2022</li>
+  <li>Early Tenure and Early Promotion to Associate Professor, CSUS, 2019</li>
+  <li>Outstanding Faculty Award for Scholarly and Creative Activity, CSUS, 2018-2019</li>
+  <li>Best Paper Runner-up Award, IEEE CNS, 2016</li>
+  <li>Student Research Symposium Faculty Mentor Award, CSUS, 2016</li>
+  <li>University Excellent Project Award, USTC, 2006</li>
+</ul>
+</section>
+
+<section class="card" style="margin-top:12px">
+  <h3>Publications and Technical Reports <span class="small">(student names underlined)</span></h3>
+  <ul class="publist">
+    <li><b>[NDSS 2026]</b> <u>H. Luan</u>, <u>X. Tan</u>, <u>Z. Li</u>, <b>J. Dai</b>, X. Sun, and P. Chen, "Dataset Reduction and Watermark Removal via Self-supervised Learning for Model Extraction Attack". The 33rd edition of the Network and Distributed System Security Symposium (NDSS 2026). (acceptance rate = 17.89%) <a href="https://www.ndss-symposium.org/wp-content/uploads/2026-f223-paper.pdf">(PDF)</a></li>
+    <li><b>[NDSS 2026]</b> <u>X. Tan</u>, <u>H. Luan</u>, <u>M. Luo</u>, <u>Z. Yu</u>, <b>J. Dai</b>, X. Sun, and P. Chen, "Was My Data Used for Training? Membership Inference in Open-Source LLMs via Neural Activations". The 33rd edition of the Network and Distributed System Security Symposium (NDSS 2026). (acceptance rate = 17.89%) <a href="https://www.ndss-symposium.org/wp-content/uploads/2026-f474-paper.pdf">(PDF)</a></li>
+    <li><b>[ICML 2026]</b> <u>H. Xu</u>, <u>X. Tan</u>, L. Ma, <u>Z. Zhang</u>, <u>C. Wang</u>, Q. Wang, P. Chen, <b>J. Dai</b>, and X. Sun, "When Agents Go Rogue: Activation-Based Detection of Malicious Behaviors in Multi-Agent Systems". Forty-Third International Conference on Machine Learning (ICML 2026), Seoul, South Korea, July 6-11, 2026. <a href="https://arxiv.org/pdf/2607.06807">(PDF)</a></li>
+    <li><b>[TDSC 2026]</b> <u>J. Wei</u>, Y. Liu, K. Qian, H. Shi, C. Wang, P. Chen, Y. Wang, Y. Wang, B. Mao, <b>J. Dai</b>, and X. Sun, "ProteusFuzz: From Static Harness Generation to Adaptive, Agent-Guided Library Fuzzing". IEEE Transactions on Dependable and Secure Computing (TDSC), Sep 2026. <span class="muted">(PDF to appear)</span></li>
+    <li><b>[SenSys 2026]</b> <u>H. Xu</u>, <u>T. Zhao</u>, X. Wang, <u>L. Ma</u>, <b>J. Dai</b>, A. Wyglinski, and X. Sun, "EMPalm: Exfiltrating Palm Biometric Data via Electromagnetic Side-Channel". ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems (SenSys 2026). (acceptance rate = 18.9%) <a href="https://dl.acm.org/doi/epdf/10.1145/3774906.3802764">(PDF)</a></li>
+    <li><b>[SenSys 2026]</b> Y. Wan, <u>T. Xu</u>, <u>T. N. B. Huynh</u>, <b>J. Dai</b>, X. Sun, K. Xu, and G. Xue, "Characterizing Security and Privacy Risks in Smart Home IoT Device Access Sharing". ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems (SenSys 2026). (acceptance rate = 18.9%) <a href="https://dl.acm.org/doi/epdf/10.1145/3774906.3802795">(PDF)</a></li>
+    <li><b>[ACL 2026 Findings]</b> <u>X. Tan</u>, <u>Y. Zheng</u>, <u>C. Huo</u>, <u>Y. Zhang</u>, <u>Y. Liu</u>, <u>H. Luan</u>, <u>Z. Yu</u>, <b>J. Dai</b>, X. Sun, P. Chen, "PRA-RAG: Provably Robust Aggregation in Retrieval-Augmented Generation against Retrieval Corruption". The Findings of the Association for Computational Linguistics: ACL 2026, San Diego, California, July 2-7, 2026. <a href="https://aclanthology.org/2026.findings-acl.1794.pdf">(PDF)</a></li>  
+    <li><b>[ICME 2026]</b> <u>Z. Fang</u>, Y. Chen, L. Chen, Y. Liu, X. Sun, P. Chen, and <b>J. Dai</b>, "A Trustworthy Watermarking Framework for LLM-Generated Food Safety Content". The IEEE International Conference on Multimedia & Expo (ICME 2026). (acceptance rate = 28.89%) <a href="https://arxiv.org/pdf/2609.06708">(PDF)</a></li>    
+    <li><b>[Computers & Security 2026]</b> <u>T. N. B. Huynh</u>, <u>H. Xu</u>, <u>B. Almaguer</u>, <b>J. Dai</b>, and X. Sun, "INFER: Portable Hands-on Labs for Digital Forensics Education: Design, Deployment, and Educational Impact". Computers & Security, Sep 2026. <span class="muted">(PDF to appear)</span></li>
+    <li><b>[ICICS 2026]</b> <u>C. Wang</u>, <u>S. Yang</u>, Y. Bai, X. Sun, <b>J. Dai</b>, and D. Zhao, "PixCrypt: Fast Fine-Grained FHE with Range-Aware Caching". The 28th International Conference on Information and Communications Security (ICICS 2026), Fukui, Japan, 27-30 Oct, 2026. <a href="docs/PixCrypt.pdf">(PDF)</a></li>
+    <li><b>[AIBlock 2026]</b> <u>C. Ouellette</u>, <u>B. Almaguer</u>, X. Sun, <b>J. Dai</b>, "Detection, Validation and Analysis of Deepfaking in Social Media", The 8th International Conference on Application Intelligence and Blockchain Security (AIBlock 2026). <a href="docs/deepfaking.pdf">(PDF)</a></li>
+    <li><b>[NDSS 2025]</b> <u>C. Yue</u>, K. Chen, <u>Z. Guo</u>, <b>J. Dai</b>, X. Sun, Y. Yang, "What's Done Is Not What's Claimed: Detecting and Interpreting Inconsistencies in App Behaviors". The 32nd edition of the Network and Distributed System Security Symposium (NDSS 2025), San Diego, CA, Feb 24-28, 2025. (acceptance rate = 16.1%) <a href="https://www.ndss-symposium.org/wp-content/uploads/2025-2290-paper.pdf">(PDF)</a></li>
+    <li><b>[EMNLP 2025 Findings]</b> <u>X. Tan</u>, <u>H. Luan</u>, M. Luo, X. Sun, P. Chen, <b>J. Dai</b>, "RevPRAG: Revealing Poisoning Attacks in Retrieval-Augmented Generation through LLM Activation Analysis". The Findings of the Association for Computational Linguistics: EMNLP 2025, Suzhou, China, Nov 4-9, 2025. <a href="https://aclanthology.org/2025.findings-emnlp.698.pdf">(PDF)</a></li>
+    <li><b>[TDSC 2025]</b> D. Ma, <u>J. Jiang</u>, X. Sun, Z. Tang, Z. Zhang, K. Chen, <b>J. Dai</b>, "Got My 'Invisibility' Patch: Towards Physical Evasion Attacks on Black-box Face Detection Systems". IEEE Transactions on Dependable and Secure Computing (TDSC), June 2025. <a href="docs/TDSC2025.pdf">(PDF)</a></li>
+    <li><b>[TMC 2025]</b> <u>T. Zhao</u>, J. Zhang, <b>J. Dai</b>, X. Sun, X. Wang, "Unveiling the Threat: Data-Free Backdoor Attacks on Pre-Trained Models for RF Fingerprinting". IEEE Transactions on Mobile Computing (TMC), Oct 2025. <a href="docs/TMC2025.pdf">(PDF)</a></li>
+    <li><b>[SIGCSE 2025]</b> <u>D. Kariuki</u>, I. Ngambeki, <b>J. Dai</b>, M. Bishop, X. Sun, M. Dark, J. Daugherty, A. Lowrie, M. Geissler, P. Nico and A. Noor, "Strengthening Workforce Education: Excellence in Programming Securely (SWEEPS)". ACM Special Interest Group on Computer Science Education (SIGCSE) Technical Symposium (TS) 2025. <a href="docs/SWEEPS.pdf">(PDF)</a></li>
+    <li><b>[JCS 2025]</b> <u>J. Wei</u>, P. Chen, K. Lu, <b>J. Dai</b>, X. Sun, "SQLaser: Detecting DBMS Logic Bugs with Clause-Guided Fuzzing". Journal of Computer Security (JCS), July 2025. <a href="docs/SQLaser.pdf">(PDF)</a></li>
+    <li><b>[JCS 2025]</b> <u>J. Wei</u>, P. Chen, <b>J. Dai</b>, X. Sun, <u>Z. Zhang</u>, <u>C. Xu</u>, Y. Wang, "HuntFUZZ: Enhancing Error Handling Testing through Clustering Based Fuzzing". Journal of Computer Security (JCS), April 2025. <a href="docs/HuntFUZZ.pdf">(PDF)</a></li>
+    <li><b>[ICICS 2025]</b> <u>H. Xu</u>, <u>T. Zhao</u>, X. Wang, <b>J. Dai</b> and X. Sun, "MagWatch: Exposing Privacy Risks in Smartwatches through Electromagnetic Signals". The 27th International Conference on Information and Communications Security (ICICS), Nanjing, China, Oct 29-31, 2025. (acceptance rate = 28%) <a href="docs/MagWatch.pdf">(PDF)</a></li>
+    <li><b>[COMPSAC 2025]</b> <u>T. Huynh</u>, <u>H. Xu</u>, <u>B. Almaguer</u>, <b>J. Dai</b>, X. Sun, "Towards Development of Ready-to-Use Hands-on Labs with Portable Operating Environments for Digital Forensics Education". The 49th IEEE International Conference on Computers, Software, and Applications (COMPSAC), Toronto, Canada, July 8-11, 2025. (acceptance rate = 27%) <a href="docs/COMPSAC2025.pdf">(PDF)</a></li>    
+    <li><b>[MILCOM 2025]</b> <u>J. Jiang</u>, <u>J. Ju</u>, <u>H. Xu</u>, <u>Z. Tan</u>, D. Ma, <b>J. Dai</b> and X. Sun, "VibLeak: Towards Practical Covert Data Leakage via Phone Vibrations". The IEEE Military Communications Conference (MILCOM), Los Angeles, CA, USA, Oct 6-10, 2025. <a href="docs/VibLeak.pdf">(PDF)</a></li>
+    <li><b>[IFIP WISE 2025]</b> M. Dark, P. Huff, <b>J. Dai</b>, M. Bishop, "CSEC Foundations Guidelines". IFIP (International Federation for Information Processing) Working Group (WG) 11.8-World Conference on Information Security Education (WISE) 2025, Maribor, Slovenia, May 21-23, 2025. <a href="docs/Update2CSEC.pdf">(PDF)</a></li>
+    <li><b>[IFIP WISE 2025]</b> <u>C. Dean</u>, <u>B. Almaguer</u>, <u>T. Buck</u>, <u>N. Kunkle</u>, <u>C. Nguyen</u>, <u>P. Patel</u>, <u>A. Roberts</u>, <u>M. Shirley</u>, H. Fu, X. Sun, <b>J. Dai</b>, "A Car Hacking Mini-Unit for High School Cybersecurity Education". IFIP (International Federation for Information Processing) Working Group (WG) 11.8-World Conference on Information Security Education (WISE) 2025, Maribor, Slovenia, May 21-23, 2025. <a href="docs/CarHacking4HS.pdf">(PDF)</a></li>
+    <li><b>[IFIP WISE 2025]</b> <u>T. N. B. Huynh</u>, <u>H. Xu</u>, <u>B. Almaguer</u>, <b>J. Dai</b>, X. Sun, "INFER: Enhancing Digital Forensics Education through Ready-to-Use Hands-on Labs with Portable Operating Environments". IFIP (International Federation for Information Processing) Working Group (WG) 11.8-World Conference on Information Security Education (WISE) 2025, Maribor, Slovenia, May 21-23, 2025. <a href="docs/INFER.pdf">(PDF)</a></li>
+    <li><b>[ACM SIGCITE 2025]</b> <u>B. Almaguer</u>, <u>C. Dean</u>, <u>E. Dang</u>, <u>P. Dooley</u>, <u>B. Miller</u>, <u>M. Moshchenko</u>, <u>M. Shirley</u>, <u>T. Senty</u>, M. Dark, X. Sun, J. Dai, "Project-based Teaching Aid for Secondary Education on Cyberattacks and Countermeasures". The 26th ACM Annual Conference on Cybersecurity and Information Technology Education (ACM SIGCITE 2025), Sacramento, California, Nov 6-8, 2025. <a href="https://dl.acm.org/doi/pdf/10.1145/3769694.3771141">(PDF)</a></li>
+    <li><b>[SenSys 2025 Poster]</b> <u>T. N. B. Huynh</u>, <u>T. Xu</u>, Y. Wan, <b>J. Dai</b>, X. Sun, "Poster Abstract: Optimizing loT Cross-rule Vulnerability Detection through Reinforcement Learning-Based Fuzzing". The 23rd ACM Conference on
+Embedded Networked Sensor Systems (SenSys), Irvine, USA, May 6-9, 2025. <a href="docs/SenSys2025Poster.pdf">(PDF)</a></li>
+<li><b>[IntelliSys 2024]</b> <u>B. D. Kaur</u>, X. Sun, <b>J. Dai</b>, "A Two-Layer AI-Integrated Multiple-Camera System for Detecting Human Intrusions". 10th Intelligent Systems Conference (IntelliSys), Amsterdam, the Netherlands, Sep 5-6, 2024.</li>
+<li><b>[SVCC 2024]</b> <u>R. N. Patel</u>, X. Zhang, X. Sun, <b>J. Dai</b>, "Exploring Scalable Bayesian Network For Identification of Zero-day Attack Paths". Silicon Valley Cybersecurity Conference (SVCC) 2024.</li>
+<li><b>[SIGMOD 2023]</b> <u>O. Tawose</u>, <b>J. Dai</b>, L. Yang, D. Zhao, "Toward Efficient Homomorphic Encryption for Outsourced Databases through Parallel Caching". ACM SIGMOD 2023 International Conference on Management of Data. <a href="docs/Rache.pdf">(PDF)</a></li>
+<li><b>[IFIP WG 11.9 2023]</b> <u>R. M. Suryavanshi</u>, X. Sun, <b>J. Dai</b>, "Identifying Superspreaders: Ranking System Object Instance Graph". Nineteenth Annual IFIP (International Federation for Information Processing) Working Group (WG) 11.9 International Conference on Digital Forensics (IFIP WG 11.9 2023) <a href="docs/RankingSODG.pdf">(PDF)</a></li>
+<li><b>[ICNC 2023]</b> <u>A. S. Masurkar</u>, X. Sun, <b>J. Dai</b>, "Using Blockchain for Decentralized Artificial Intelligence with Data Privacy". 2023 International Conference on Computing, Networking and Communications (ICNC): Communications and Information Security Symposium. <a href="docs/Blockchain-AI.pdf">(PDF)</a></li>
+<li><b>[ICNC 2023]</b> <u>N. R. Thota</u>, X. Sun, <b>J. Dai</b>, "Early Rumor Detection in Social Media Based on Graph Convolutional Networks". 2023 International Conference on Computing, Networking and Communications (ICNC): Social Computing and Semantic Data Mining. <a href="docs/RumorDetection.pdf">(PDF)</a></li>
+<li><b>[SIGCSE 2023 Poster]</b> I. Ngambeki, M. Bishop, <b>J. Dai</b>, P. Nico, "Validation of a Secure Programming Concept Inventory". ACM Special Interest Group on Computer Science Education (SIGCSE) Technical Symposium (TS) 2023.</li>
+<li><b>[SVCC 2022]</b> <u>G. G. Prabhugaonkar</u>, X. Sun, X. Wang and <b>J. Dai</b>, "Deep IoT Monitoring: Filtering IoT Traffic Using Deep Learning". Proceedings of the Silicon Valley Cybersecurity Conference, Aug 17-19, 2022.</li>
+<li><b>[IFIP WISE 2022]</b> I. Ngambeki, M. Bishop, <b>J. Dai</b>, P. Nico, S. Mian, <u>O. Thao</u>, <u>T. N. B. Huynh</u>, <u>Z. Chance</u>, I. Alhasan and M. Afolabi, "SecTutor: An Intelligent Tutoring System For Secure Programming". IFIP (International Federation for Information Processing) Working Group (WG) 11.8-World Conference on Information Security Education (WISE 2022), Copenhagen, Denmark, June 13-15, 2022. <a href="docs/SecTutor.pdf">(PDF)</a></li>
+<li><b>[IFIP WISE 2021]</b> M. Bishop, I. Ngambeki, <u>S. Mian</u>, <b>J. Dai</b> and P. Nico, "Measuring Self-Efficacy in Secure Programming: The Context of a Secure Programming Clinic". IFIP (International Federation for Information Processing) Working Group (WG) 11.8-World Conference on Information Security Education (WISE 2021), Oslo, Norway, June 22-24, 2021. <a href="docs/WISE2021.pdf">(PDF)</a></li>
+<li><b>[NCS 2021]</b> <u>W. Liang</u>, C. Zhang, <b>J. Dai</b>, "Enhancing Secure Coding Assistant System with Design by Contract and Programming Logic". National Cyber Summit, 2021. <a href="docs/NCS2021.pdf">(PDF)</a></li>
+<li><b>[NDSS 2020 Poster]</b> <u>A. Al-Mamun</u>, <b>J. Dai</b>, X. Xu, M. Sadoghi, H. Shen, D. Zhao, "DEAN: A Blockchain-Inspired Consensus Protocol Enabling Trustworthy Edge Computing". The Network and Distributed System Security Symposium (NDSS) 2020, Feb 23-26, 2020. (poster paper) <a href="https://www.ndss-symposium.org/wp-content/uploads/2020/02/NDSS2020posters_paper_2.pdf">(PDF)</a></li>
+<li><b>[NCS 2019]</b> <u>V. Melnik</u>, <b>J. Dai</b>, C. Zhang, B. White, "Enforcing Secure Coding Rules for the C Programing Language Using the Eclipse Development Environment". Proceeding of National Cyber Summit (NCS), Huntsville, AL, Jun 4-6, 2019. <a href="docs/NCS2019.pdf">(PDF)</a></li>
+<li><b>[FIE 2018]</b> <b>J. Dai</b>, "Situation Awareness-Oriented Cybersecurity Education". 48th Annual Frontiers in Education (FIE 2018) Conference, San Jose, California USA. (Research to Practice Full paper) <a href="docs/FIE2018-SA.pdf">(PDF)</a></li>
+<li><b>[FIE 2018]</b> I. Ngambeki, P. Nico, <b>J. Dai</b>, M. Bishop, "Concept Inventories in Cybersecurity Education: An Example from Secure Programming". 48th Annual Frontiers in Education (FIE 2018) Conference, San Jose, California USA. (Work In Progress paper) <a href="docs/FIE2018-SPCI.pdf">(PDF)</a></li>
+<li><b>[SECRYPT 2018]</b> <u>N. Aldausari</u>, C. Zhang, <b>J. Dai</b>, "Combining Design by Contract and Inference Rules of Programming Logic towards Software Reliability". 15th International Conference on Security and Cryptography (SECRYPT), 2018. <a href="docs/SECRYPT2018.pdf">(PDF)</a></li>
+<li><b>[IJIPSI 2018]</b> <u>B. White</u>, <b>J. Dai</b>, C. Zhang, "An Early Detection Tool in Eclipse to Enforce Secure Coding Practices". International Journal of Information Privacy, Security and Integrity (IJIPSI), Inderscience, 2018. <a href="docs/IJIPSI2018.pdf">(PDF)</a></li>
+<li><b>[SecureComm 2018]</b> <u>Y. Dong</u>, <b>J. Dai</b>, X. Sun, "A Mobile Botnet That Meets Up at Twitter". 14th International Conference on Security and Privacy in Communication Networks (SecureComm), 2018. <a href="docs/SecureComm2018.pdf">(PDF)</a></li>
+<li><b>[TIFS 2018]</b> X. Sun, <b>J. Dai</b>, P. Liu, A. Singhal and J. Yen, "Using Bayesian Networks for Probabilistic Identification of Zero-day Attack Paths". IEEE Transactions on Information Forensics and Security (TIFS), 2018. <a href="docs/TIFS2018.pdf">(PDF)</a></li>
+<li><b>[ICNC 2018]</b> <u>S. Gopalan, A. Kulkarni, A. N. Shah</u>, <b>J. Dai</b>, J. Ouyang, P. Muyan-Ozcelik and X. Sun, "Don't Be Surprised: I See Your Mobile App Stealing Your Data". Proceedings of the International Conference on Computing, Networking and Communications (ICNC 2018)-Mobile Computing &amp; Vehicle Communications (MCVC) Symposium. (acceptance rate = 115/427 = 26.93%) <a href="docs/AppLeakage.pdf">(PDF)</a></li>
+<li><b>[EAI ETSS 2018]</b> X. Sun, <b>J. Dai</b>, A. Singhal, and P. Liu, "Probabilistic Inference of the Stealthy Bridges between Enterprise Networks in Cloud". EAI Endorsed Transactions on Security and Safety, Jan 2018. <a href="docs/EAI-ETSS2018.pdf">(PDF)</a></li>
+<li><b>[NCS 2017]</b> <u>C. Li, B. White</u>, <b>J. Dai</b>, C. Zhang. "Enhancing Secure Coding Assistant With Error Correction and Contract Programming". Proceeding of National Cyber Summit (NCS), Huntsville, AL, Jun 6-8, 2017. <a href="docs/NCS2017.pdf">(PDF)</a></li>
+<li><b>[IFIP WISE 2017]</b> M. Bishop, <b>J. Dai</b>, M. Dark, I. Ngambeki, P. Nico and <u>M. Zhu</u>, "Evaluating Secure Programming Knowledge". IFIP (International Federation for Information Processing) Working Group (WG) 11.8-World Conference on Information Security Education (WISE 2017), Poznan, Poland, pp. 48-59, 2017. <a href="docs/WISE2017.pdf">(PDF)</a></li>
+<li><b>[Springer LNCS 2017]</b> X. Sun, <b>J. Dai</b>, P. Liu, A. Singhal, J. Yen. "Using Bayesian Networks to Fuse Intrusion Evidences and Detect Zero-day Attack Paths". Book chapter in Springer LNCS volume "Network Security Metrics and Applications". 2017.</li>
+<li><b>[CNS 2016]</b> X. Sun, <b>J. Dai</b>, P. Liu, A. Singhal, J. Yen, "Towards Probabilistic Identification of Zero-day Attack Paths". IEEE Conference on Communications and Network Security (CNS 2016), Philadelphia, USA, 2016. (<b>Best Paper Runner-Up Award</b>) <a href="docs/CNS2016.pdf">(PDF)</a></li>
+<li><b>[NCS 2016]</b> <u>B. White</u>, <b>J. Dai</b>, C. Zhang, "Secure Coding Assistant: Enforcing Secure Coding Practices Using the Eclipse Development Environment". Proceedings of National Cyber Summit (NCS), Huntsville, AL, Jun 8-9, 2016. (short paper and poster, <b>Student Research Symposium Faculty Mentor Award</b>) <a href="docs/NCS2016.pdf">(PDF)</a></li>
+<li><b>[Springer LNCS 2016]</b> X. Sun, <b>J. Dai</b>, A. Singhal, P. Liu, "Enterprise-level Cyber Situation Awareness". Book chapter in P. Liu, S. Jajodia, and C. Wang (eds.) Springer LNCS, volume "Recent Advances in Cyber Situation Awareness", 2016.</li>
+<li><b>[IRI 2015]</b> <u>R. Surve</u>, M. Lu, <b>J. Dai</b>, "Xquery Data Mining Tool for Campus Security". Proceedings of 16th IEEE International Conference on Information Reuse and Integration (IRI 2015), San Francisco, USA, pp.193-196, 2015. (short paper and poster)</li>
+<li><b>[SecureComm 2014]</b> X. Sun, <b>J. Dai</b>, A. Singhal, P. Liu, "Inferring the Stealthy Bridges between Enterprise Network Islands in Cloud Using Cross-Layer Bayesian Networks". 10th International Conference on Security and Privacy in Communication Networks (SecureComm 2014), Beijing, China. J. Tian et al. (eds.) SecureComm 2014, Part I, Springer LNICST, vol. 152, pp. 3-23, 2015. (<b>Best Paper Award Nomination</b>) <a href="docs/SecureComm2014.pdf">(PDF)</a></li>
+<li><b>[ESORICS 2013]</b> <b>J. Dai</b>, X. Sun, P. Liu, "Patrol: Revealing Zero-day Attack Paths through Network-wide System Object Dependencies". 18th European Symposium on Research in Computer Security (ESORICS 2013), RHUL, Egham, U.K. J. Crampton, S. Jajodia, K. Mayes (eds.) ESORICS 2013, Springer LNCS, vol. 8134, pp. 536-555, 2013. (acceptance rate = 17.8%) <a href="docs/Patrol.pdf">(PDF)</a></li>
+<li><b>[CogSIMA 2013]</b> X. Sun, <b>J. Dai</b>, P. Liu, "SKRM: Where Security Techniques Talk to Each Other". IEEE International Multi-Disciplinary Conference on Cognitive Methods in Situation Awareness and Decision Support (CogSIMA 2013), San Diego, USA, pp. 163-166, 2013. <a href="docs/CogSIMA2013.pdf">(PDF)</a></li>
+<li><b>[Cyber Security 2012]</b> <b>J. Dai</b>, X. Sun, P. Liu, N. Giacobe, "Gaining Big Picture Awareness through an Interconnected Cross-layer Situation Knowledge Reference Model". ASE/IEEE Cyber Security 2012, Washington DC, USA, pp. 83-92, 2012. (acceptance rate = 9.6%) <a href="docs/SKRM.pdf">(PDF)</a></li>
+<li><b>[ICFN 2010]</b> X. Sun, Y. Bao, W. Lu, <b>J. Dai</b>, Z. Wang, "A Study on Performance of Inter-Vehicle Communications in Bidirectional Traffic Streams". IEEE International Conference on Future Networks (ICFN 2010), Sanya, China, pp. 68-72, 2010. <a href="docs/ICFN2010.pdf">(PDF)</a></li>
+<li><b>[NCM 2009]</b> <b>J. Dai</b>, J. Li, "VBR MPEG Video Traffic Dynamic Prediction Based on the Modeling and Forecast of Time Series". IEEE International Joint Conference on INC, IMS and IDC (NCM 2009), Seoul, Korea, pp. 1752-1757, 2009. (acceptance rate = 29.6%) <a href="docs/NCM2009.pdf">(PDF)</a></li>
+<li><b>[SMC 2009]</b> Z. Wang, W. Lu, <b>J. Dai</b>, "Saving the calculating time of the TCNN with nonchaotic simulated annealing strategy". IEEE International Conference on Systems, Man, and Cybernetics (SMC 2009), San Antonio, USA, pp. 5189-5193, 2009. <a href="docs/SMC2009.pdf">(PDF)</a></li>
+<li><b>[VNC 2009]</b> X. Sun, Y. Bao, <b>J. Dai</b>, W. Lu, Z. Wang, "Performance Analysis of Inter-vehicle Communications in Multilane Dynamic Traffic Streams". IEEE Vehicular Networking Conference (VNC 2009), Tokyo, Japan, pp. 1-6, 2009. <a href="docs/VNC2009.pdf">(PDF)</a></li>
+<li><b>[Technical Report 2006]</b> <b>J. Dai</b>, J. Xiang, J. Jing, "An LAN Security Entry System Based on Device Authentication". 2006. (project paper in Chinese, <b>University Excellent Project Award</b>)</li>
+  </ul>
+<p class="small">
+Copyright Notice: Copyright of conference and journal papers is retained by the respective publishers or copyright holders. Author-posted versions are provided for personal use only and may not be redistributed. For the final published versions, please refer to the official conference proceedings or journal websites.
+</p>
+</section>
+</main>
+</div>
+</body>
+</html>

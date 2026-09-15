@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Dr. Jun Dai | Home</title>
+  <style>
+:root{
+  --bg:#ffffff;
+  --text:#111827;
+  --muted:#4b5563;
+  --border:#e5e7eb;
+  --link:#1E4ED8;
+  --card:#ffffff;
+  --shadow: 0 10px 28px rgba(0,0,0,.06);
+  --radius:16px;
+  --maxw: 1000px;
+  --activeBg:#E6F0FF;
+  --hoverBg:#F3F4F6;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--text)}
+body{
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+  line-height:1.62;
+  font-size:16px;
+}
+a{color:var(--link);text-decoration:none}
+a:hover{text-decoration:underline}
+.skip{position:absolute;left:-999px;top:auto;width:1px;height:1px;overflow:hidden;}
+.skip:focus{
+  position:static;width:auto;height:auto;margin:12px;display:inline-block;
+  padding:8px 10px;border-radius:10px;border:1px solid var(--border);background:var(--card);
+}
+.container{max-width:var(--maxw);margin:0 auto;padding:28px 18px 56px}
+.header{
+  display:flex;gap:88px;align-items:center;
+  padding:18px 18px;
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  background:var(--card);
+  box-shadow:var(--shadow);
+}
+.portrait{
+  width:140px;height:140px;flex:0 0 140px;
+  margin-left:25px;
+  border-radius:14px;object-fit:cover;
+  border:1px solid var(--border);
+}
+.identity h1{
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size:20px;
+  line-height:1.15;
+  margin:0 0 6px 0;
+  letter-spacing:.2px;
+}
+.identity .meta{color:var(--muted);font-size:14.5px}
+.identity .meta div{margin:2px 0}
+.meta .label{color:var(--muted)}
+.nav{
+  margin-top:14px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  padding:10px 12px;
+  border:1px solid var(--border);
+  border-radius:999px;
+  background:var(--card);
+}
+.nav a{
+  flex:1 1 150px;
+  text-align:center;
+  display:block;
+  padding:9px 10px;
+  border-radius:999px;
+  font-weight:600;
+  font-size:14px;
+  color:var(--muted);
+  white-space:nowrap;
+}
+.nav a.active{background:var(--activeBg);color:#0b1220;}
+.nav a:hover{background:var(--hoverBg);}
+.nav a:focus{outline:2px solid #93c5fd;outline-offset:2px}
+main{
+  margin-top:18px;
+  padding:22px 22px;
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  background:var(--card);
+  box-shadow:var(--shadow);
+}
+h2,h3{
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  margin:0 0 10px 0;
+}
+h2{font-size:20px;margin-top:22px}
+h2:first-child{margin-top:0}
+h3{font-size:17px;margin-top:18px}
+p{margin:10px 0}
+ul{padding-left:20px;margin:10px 0}
+li{margin:6px 0}
+hr{border:none;border-top:1px solid var(--border);margin:18px 0}
+.small{font-size:13.5px;color:var(--muted)}
+.card{border:1px solid var(--border);border-radius:14px;padding:14px;background:#fff;}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:860px){
+  .grid{grid-template-columns:1fr}
+  .header{flex-direction:column;align-items:flex-start}
+  .portrait{margin-left:0}
+}
+.badge{
+  display:inline-block;
+  padding:2px 8px;
+  border-radius:999px;
+  border:1px solid var(--border);
+  background:#f9fafb;
+  font-size:12.5px;
+  color:var(--muted);
+  vertical-align:baseline;
+}
+details{border:1px solid var(--border);border-radius:14px;padding:10px 12px;background:#fff;margin-top:10px}
+details > summary{cursor:pointer;font-weight:700}
+details > summary::-webkit-details-marker{display:none}
+details > summary:after{content:"▾";float:right;color:var(--muted)}
+details[open] > summary:after{content:"▴"}
+.publist li{margin:10px 0}
+</style>
+</head>
+<body>
+<a class="skip" href="#content">Skip to content</a>
+<div class="container">
+
+<header class="header">
+  <img alt="Dr. Jun Dai" class="portrait" src="dj.jpg"/>
+  <div class="identity">
+    <h1>Dr. Jun Dai</h1>
+    <div class="meta">
+      <div><span class="label">Associate Professor, </span><a href="https://www.wpi.edu/academics/departments/computer-science">Department of Computer Science</a></div>
+      <div><a href="https://www.wpi.edu/">Worcester Polytechnic Institute (WPI)</a></div>
+      <div><span class="label">Office:</span> Fuller 235, 100 Institute Road, Worcester, MA 01609</div>
+      <div><span class="label">Email:</span> jdai<img alt="@" height="10" src="atimg.png" width="10"/>wpi.edu <span class="label">Phone:</span> +1 (508) 831-6069</div>
+      <div><span class="label">ORCID:</span> <a href="https://orcid.org/0000-0002-6890-6429">0000-0002-6890-6429</a></div>
+      <div><span class="label">LinkedIn:</span> <a href="https://www.linkedin.com/pub/jun-dai/84/749/110">linkedin.com/pub/jun-dai/84/749/110</a></div>
+    </div>
+  </div>
+</header>
+
+<nav aria-label="Primary" class="nav">
+    <a href="index.html" class="active">Home</a>
+    <a href="group.html">Group</a>
+    <a href="research.html">Projects & Publications</a>
+    <a href="teaching.html">Teaching</a>
+    <a href="service.html">Service</a>
+</nav>
+<main id="content">
+<h2>Home</h2>
+
+<div class="grid">
+  <section class="card">
+    <h3>About</h3>
+    <p>Hello, my name is Jun Dai. I'm currently an Associate Professor in Department of Computer Science at Worcester Polytechnic Institute (WPI). My research lies at the intersection of <strong>artificial intelligence, cybersecurity, and networked and distributed systems</strong>, with recent emphasis on large language model (LLM) security, autonomous agent security, advanced attack detection, vulnerability analysis, secure coding, and cybersecurity education. I earned my PhD degree in Information Sciences and Technology with a specialization in cybersecurity from <a href="https://www.psu.edu/">the Pennsylvania State University (PSU)</a> in 2014, under the mentorship of Prof. Peng Liu. Prior to that, I got my BS degree in Information Security in 2007 and my MS degree in Network Control in 2010, both from <a href="https://www.ustc.edu.cn/">University of Science and Technology of China (USTC)</a>.</p>
+  </section>
+
+  <section class="card">
+    <h3>Recruitment</h3>
+    <p>I'm looking for self-motivated students at all levels (undergraduates, master, and PhD). I may have PhD positions with full RA/TA support. Please refer to <a href="https://www.wpi.edu/offices/vice-provost-research/sponsored-programs/resources/institutional-information-rates">WPI Current Rates</a> for stipend information (e.g., $3,334.5/month suggested for PhD candidates in Fiscal Year 2024). If you are interested, please email me. Post-doctoral and visiting researchers or students are also welcome.</p>
+    <p class="small">Prospective students: please include a CV, a transcript, and (if available) a writing/publication sample.</p>
+  </section>
+</div>
+
+<h2>News</h2>
+<section class="card">
+  <ul>
+  <li><b>[Paper]</b> Sep 2026: Work on agent-guided fuzzing accepted into TDSC. Congrats to Jin and Yuwei!</li>
+  <li><b>[Paper]</b> Sep 2026: Work on digital forensics education accepted into Computer & Security. </li>
+  <li><b>[Grant]</b> May 2026: Our RET proposal got funded. Thanks, NSF. </li>
+  <li><b>[Paper]</b> April 2026: Work on MAS security accepted by ICML 2026.</li>
+  <li><b>[Paper]</b> April 2026: Work on provably robust RAG accepted by ACL 2026 Findings. Congrats to Xue!</li>
+  <li><b>[Paper]</b> March 2026: Work on token-level LLM watermarking accepted by ICME 2026. Congrats to Zhongli!</li>
+  <li><b>[Paper]</b> March 2026: EM palm-leakage paper accepted by SenSys 2026.</li>
+  <li><b>[Paper]</b> March 2026: Smart home IoT security paper accepted by SenSys 2026. Congrats to Ting and Tran!</li>
+  <li><b>[Paper]</b> Dec 2025: LLM MIA work accepted by NDSS 2026. Congrats to Xue, Hao, Mingyu, and Zhuyang!</li>
+  <li><b>[Paper]</b> Dec 2025: Work on model extraction attack accepted by NDSS 2026. Congrats to Hao and Xue!</li>
+  <li><b>[TPC]</b> Dec 2025:	I will serve on TPC for ICDCS 2026.</li>
+  <li><b>[Professional Service]</b> Nov 2025: I will serve as an Artifact Evaluation Co-Chair of for ACM CCS 2026.</li>
+  <li><b>[TPC]</b> Oct 2025:	I will serve on TPC for ACM CCS 2026.</li>
+  <li><b>[Paper]</b> Oct 2025: Work on model backdoor attacks accepted by IEEE TMC. Congrats to Tianya!</li>
+  <li><b>[Student]</b> Fall 2025:	 Brian has transitioned into a PhD student role in our group. Congrats, Brian!</li>
+  <li><b>[Paper]</b> Aug 2025: Work on RAG poisoning accepted to EMNLP 2025 Findings. Congrats, Xue and Hao!</li>
+  <li><b>[Paper]</b> July 2025: Work on detecting DBMS logic bugs got accepted by JCS. Congrats to Jin!</li>
+  <li><b>[Paper]</b> June 2025: Work on physical face detection evasion got accepted by IEEE TDSC. Congrats to Junye!</li>
+  <li><b>[Paper]</b> April 2025: Work on clustering based fuzzing got accepted by JCS. Congrats to Jin and Zhihao!</li>
+  <li><b>[Professional Service]</b> April 2025: I will serve as an Associate Editor for IEEE TDSC.</li>
+  <li><b>[Grant]</b> March 2025: Our EAGER proposal got funded. Thanks, NSF.</li>
+  <li><b>[Paper]</b> March 2025: Papers got accepted by IFIP WISE 2025. Congrats to Brian, Cooper, and Tran!</li>
+  <li><b>[Cybersecurity Curricula Guidelines]</b> Jan 2025: ACM Supplement to CSEC 2017 officially released.</li>
+  <li><b>[Paper]</b> Nov 2024:	NDSS 2025 paper on app behavior inconsistencies. Congrats to Chang and Zhixiu!</li>
+  <li><b>[Grant]</b> Fall 2024:	DRIFT (DRiving Auto Industry workForce Transformation) project got funded.</li>
+  <li><b>[Grant]</b> Fall 2024:	NCTC (National Cybersecurity Teaching Coalition) project got funded.</li>
+  <li><b>[TPC]</b> Oct 2024:	I will serve on TPC for ACM CCS 2025.</li>
+  <li><b>[Paper]</b> Oct 2024:	Work on SWEEPS project got accepted by ACM SIGCSE 2025.</li>
+  <li><b>[TPC]</b> Sep 2024:	I will serve on TPC for ICDCS 2025.</li>
+  <li><b>[Student]</b> Fall 2024:	 Two PhD students joined our group. Welcome, Cooper and Zhihao.</li>
+  <li><b>[Student]</b> Fall 2024:	 Two MS student joined our group. Welcome, Brian and Tran.</li>
+  <li><b>[TPC]</b> Jan 2024:	I will serve as TPC for ICDCS 2024.</li>
+  <li><b>[Student]</b> Spring 2024:	One PhD student joined our group. Welcome, Chao.</li>
+  <li><b>[Grant]</b> Fall 2023:	SWEEPS project got funded.</li>
+  <li><b>[Job]</b> Fall 2023:	I joined Worcester Polytechnic Institute (WPI) as an Associate Professor in Computer Science.</li>
+  <li><b>[Grant]</b> July 2023: NSF SFS proposal got awarded.</li>
+  <li><b>[Designation]</b> June 2023: Our CIAS center got re-designated as CAE-CDE for 2023-2028.</li>
+  <li><b>[Committee]</b> March 2023: I will serve as the Workshop Chair for ACM CCS 2023.</li>
+  <li><b>[Paper]</b> Nov 2022:	Work on homomorphic encryption speedup got accepted by ACM SIGMOD 2023.</li>
+  <li><b>[Award]</b> Oct 2022:	I received the Sac State 2021-2022 University Award (university highest honor) for Research, Scholarship and Creative Activity for Early-Career Faculty.</li>
+  <li><b>[Grant]</b> Sep 2022:	Proposal on High School CS Supplementary Authorization got funded.</li>
+  <li><b>[Grant]</b> July 2022:	Proposal on NCTA Expansion got funded.</li>
+  <li><b>[Grant]</b> May 2022:	Proposal to the GenCyber 2022 program got awarded.</li>
+  <li><b>[Award]</b> Nov. 2021:	I received the Sac State 2021-2022 Outstanding Faculty Award for Teaching.</li>
+  <li><b>[Grant]</b> July 2021:	Proposal to the GenCyber 2021A program got awarded.</li>
+  <li><b>[Grant]</b> June 2021:	NCTA (National Cybersecurity Teaching Academy) project got funded.</li>
+  <li><b>[Grant]</b> June 2021:	INFER (about Digital Forensics) project got funded. Thanks, NSF.</li>
+  <li><b>[Grant]</b> Mar. 2021:	Proposal to the GenCyber 2021 program got awarded.</li>
+  <li><b>[Award]</b> Nov. 2019:	I received the Sac State 2018-2019 Outstanding Faculty Award for Scholarly Activities.</li>
+  <li><b>[Competition]</b> Nov. 2019:	Sac State team won the "Local Laboratory Winner" at Lawrence Livermore National Laboratory in the CyberForce competition.</li>
+  <li><b>[Grant]</b> July 2019:	SecTutor (Secure Programming Intelligent Tutoring) project got funded. Thanks, NSF.</li>
+  <li><b>[Competition]</b> Mar. 2019:	Sac State team got No. 2 in "Best in Defense" during WRCCDC Regional Final.</li>
+  <li><b>[Competition]</b> Oct. 2018:	Sac State team got No. 1 in the October's invitational competition of WRCCDC.</li>
+  <li><b>[Competition]</b> Sep 2018:	Sac State team got No. 2 in the the Cyber Fire Challenge.</li>
+  <li><b>[Paper]</b> Mar 2018:	Work on Patrol and ZePro projects got accepted by IEEE TIFS.</li>
+  <li><b>[Grant]</b> Dec 2017:	I received a sub-award from the well-recognized INSURE project.</li>
+  <li><b>[Grant]</b> Sep 2017:	SPCI (Secure Programming Concept Inventory) project got funded.</li>
+  <li><b>[Job]</b> June 2017:	I was appointed as the Director of the Center for Information Assurance and Security (CIAS).</li>
+  <li><b>[Designation]</b> Mar 2017: Our CIAS center got re-designated as CAE-CDE for 2017-2022.</li>
+  <li><b>[Award]</b> Oct 2016:	Work on ZePro project got the IEEE CNS 2016 Best Paper Runner-up Award.</li>
+  <li><b>[Grant]</b> Jan 2016:	I received a sub-award from the NSF-funded Secure Programming Clinic (SPC) project.</li>
+  <li><b>[Job]</b> Aug 2014:	I joined CSU-Sacramento (Sac State) as an Assistant Professor in Computer Science.</li>
+  </ul>
+</section>
+</main>
+</div>
+</body>
+</html>
